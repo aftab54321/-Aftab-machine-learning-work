@@ -1,0 +1,50 @@
+[
+    {
+        "Model Name":"logistic regrression",
+        "F1 score":0.7329910141206676,
+        "Confusion Matrix":"array([[638, 182],[234, 571]]",
+        "accuracy_score":0.744,
+        "best params":{"solver='newton-cg', penalty='l2',max_iter= 3900,C=3199.2671377973843"}
+
+
+    }
+],
+[
+    {
+        "Model Name":"decision tree",
+        "F1 score":0.8904203997243281,
+        "Confusion Matrix":"array([[820,   0],[159, 646]]",
+        "accuracy_score":0.9021538461538462,
+        "best params":{"'splitter': 'best','min_samples_split': 24,'max_features': 'sqrt','max_depth': 92,'criterion': 'entropy'"}
+
+    }
+],
+[
+    {
+        "Model Name":"Random forest",
+        "F1 score":0.8904203997243281,
+        "Confusion Matrix":"array([[820,   0],[159, 646]]",
+        "accuracy_score":0.9021538461538462,
+        "best params":{"'warm_start': False,'n_estimators': 1550,'min_samples_split': 32,'max_features': 'log2','max_depth': 47,'criterion': 'gini','bootstrap': False"}
+    }
+],
+[
+    {
+        "Model Name":"Naive bayes",
+        "F1 score":0.7013316423589094,
+        "Confusion Matrix":"array([[601, 219],[252, 553]]",
+        "accuracy_score":0.7101538461538461,
+        "best params":?
+
+        
+    }
+],
+[
+    {
+        "Model Name":"SVM",
+        "F1 score":0.7013316423589094,
+        "Confusion Matrix":"array([[817,   3],[181, 624]]", 
+        "accuracy_score":0.8867692307692308,
+        "best params":
+    }
+]
